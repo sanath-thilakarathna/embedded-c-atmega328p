@@ -34,18 +34,6 @@ embedded-c-atmega328p/
 
 ## 🧑‍💻 Quick Start ([Full Guide](docs/quick-start.md))
 
-### Option 1: Microchip Studio (Windows)
-1. Install [Microchip Studio](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio).
-2. Open any `.atsln` file under `microchip-studio/`.
-3. Select device **ATmega328P**, build, and flash to board.
-
-### Option 2: avr-gcc + avrdude (Cross-platform)
-1. Install AVR toolchain (`avr-gcc`, `avr-libc`, `avrdude`).
-2. Navigate to an example, e.g.:
-   ```bash
-   cd examples/00_blink
-   make flash
-   ```
 
 ---
 

@@ -36,6 +36,9 @@ This guide will help you set up your Windows PC for embedded C development with 
 1. avrdude is included with WinAVR and some AVR-GCC packages.
 2. If not, download a Windows build from [avrdude releases](https://github.com/avrdudes/avrdude/releases).
 3. Add the folder containing `avrdude.exe` to your PATH.
+4. If you prefer a graphical interface, you can use an avrdude GUI such as [AVRDUDESS](https://blog.zakkemble.net/avrdudess-a-gui-for-avrdude/) or [AVR8 Burn-O-Mat](https://burn-o-mat.net/). These tools provide a user-friendly way to flash your microcontroller using avrdude in the background.
+
+
 
 ---
 

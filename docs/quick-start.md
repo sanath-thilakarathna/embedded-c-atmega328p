@@ -15,22 +15,11 @@ Welcome! This guide will help you set up your environment and run your first emb
 
 ## 2. Software Setup
 
-### Option 1: Microchip Studio (Windows)
-1. Download and install [Microchip Studio](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio).
-2. Open any `.atsln` project in the `microchip-studio/` folder.
-3. Select device **ATmega328P**.
-4. Build and flash the project to your board.
+### OS-specific Setup Guides
 
-### Option 2: avr-gcc + avrdude (Cross-platform)
-1. Install AVR toolchain:
-   - Windows: [WinAVR](http://winavr.sourceforge.net/) or [AVR-GCC Toolchain](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio/gcc-compilers-avr)
-   - macOS: `brew install avr-gcc avrdude`
-   - Linux: `sudo apt install avr-gcc avr-libc avrdude`
-2. Navigate to an example:
-   ```bash
-   cd examples/00_blink
-   make flash
-   ```
+- For **Windows**: see [windows-setup.md](../toolchanins/windows-setup.md)
+- For **Linux**: see [linux-setup.md](../toolchanins/linux-setup.md)
+- For **macOS**: see [macos-setup.md](../toolchanins/macos-setup.md)
 
 ---
 
