@@ -16,16 +16,18 @@ This repository provides **step-by-step examples, reusable drivers, and small pr
 ---
 
 ## 📂 Repository Structure
+```text
 embedded-c-atmega328p/
 ├─ README.md
 ├─ LICENSE
-├─ toolchains/ # Setup guides + Makefile template
-├─ docs/ # Quick start, syllabus, diagrams
-├─ libs/ # HAL + reusable drivers
-├─ examples/ # Step-by-step learning codes
-├─ projects/ # Small integrated applications
-├─ programming/ # avrdude + programmer wiring guides
-└─ microchip-studio/ # Example .atsln/.cproj projects
+├─ toolchains/        # Setup guides + Makefile template
+├─ docs/              # Quick start, syllabus, diagrams
+├─ libs/              # HAL + reusable drivers
+├─ examples/          # Step-by-step learning codes
+├─ projects/          # Small integrated applications
+├─ programming/       # avrdude + programmer wiring guides
+└─ microchip-studio/  # Example .atsln/.cproj projects
+```
 
 
 ---
